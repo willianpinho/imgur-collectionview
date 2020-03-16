@@ -3,19 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F8EB617B41AECC0B4688964 /* Pods_Imgur_CollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5975B79983FC0DABC96C408D /* Pods_Imgur_CollectionView.framework */; };
+		DC2CCB5D241ECE7300A1BDBE /* GalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2CCB5C241ECE7300A1BDBE /* GalleryService.swift */; };
 		DC85B1D7241EC6EF00593772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85B1D6241EC6EF00593772 /* AppDelegate.swift */; };
 		DC85B1D9241EC6EF00593772 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85B1D8241EC6EF00593772 /* SceneDelegate.swift */; };
 		DC85B1DB241EC6EF00593772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85B1DA241EC6EF00593772 /* ViewController.swift */; };
 		DC85B1DE241EC6EF00593772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC85B1DC241EC6EF00593772 /* Main.storyboard */; };
 		DC85B1E0241EC6F100593772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC85B1DF241EC6F100593772 /* Assets.xcassets */; };
 		DC85B1E3241EC6F100593772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC85B1E1241EC6F100593772 /* LaunchScreen.storyboard */; };
+		DC85B1ED241EC7C000593772 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85B1EB241EC7C000593772 /* GalleryCollectionViewCell.swift */; };
+		DC85B1EE241EC7C000593772 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC85B1EC241EC7C000593772 /* GalleryCollectionViewCell.xib */; };
+		DC85B1F2241ECA6400593772 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85B1F1241ECA6400593772 /* GalleryItem.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DC8664F6241ECBF000FB5D06 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		215E63E50B6EFF5F987A475A /* Pods-Imgur CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imgur CollectionView.release.xcconfig"; path = "Target Support Files/Pods-Imgur CollectionView/Pods-Imgur CollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		5975B79983FC0DABC96C408D /* Pods_Imgur_CollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Imgur_CollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A42C3955A5A413366B7E65B /* Pods-Imgur CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Imgur CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-Imgur CollectionView/Pods-Imgur CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		DC2CCB5C241ECE7300A1BDBE /* GalleryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryService.swift; sourceTree = "<group>"; };
 		DC85B1D3241EC6EF00593772 /* Imgur CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imgur CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC85B1D6241EC6EF00593772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC85B1D8241EC6EF00593772 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +46,9 @@
 		DC85B1DF241EC6F100593772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC85B1E2241EC6F100593772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC85B1E4241EC6F100593772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC85B1EB241EC7C000593772 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC85B1EC241EC7C000593772 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		DC85B1F1241ECA6400593772 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +56,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8EB617B41AECC0B4688964 /* Pods_Imgur_CollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E38E2CC4AC651278D779734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A42C3955A5A413366B7E65B /* Pods-Imgur CollectionView.debug.xcconfig */,
+				215E63E50B6EFF5F987A475A /* Pods-Imgur CollectionView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC85B1CA241EC6EF00593772 = {
 			isa = PBXGroup;
 			children = (
 				DC85B1D5241EC6EF00593772 /* Imgur CollectionView */,
 				DC85B1D4241EC6EF00593772 /* Products */,
+				DC8664EA241ECB7A00FB5D06 /* Frameworks */,
+				9E38E2CC4AC651278D779734 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +93,9 @@
 		DC85B1D5241EC6EF00593772 /* Imgur CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				DC85B1F0241EC9C000593772 /* Service */,
+				DC85B1EF241EC9BA00593772 /* Model */,
+				DC85B1EA241EC79D00593772 /* Views */,
 				DC85B1D6241EC6EF00593772 /* AppDelegate.swift */,
 				DC85B1D8241EC6EF00593772 /* SceneDelegate.swift */,
 				DC85B1DA241EC6EF00593772 /* ViewController.swift */,
@@ -67,6 +107,39 @@
 			path = "Imgur CollectionView";
 			sourceTree = "<group>";
 		};
+		DC85B1EA241EC79D00593772 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC85B1EB241EC7C000593772 /* GalleryCollectionViewCell.swift */,
+				DC85B1EC241EC7C000593772 /* GalleryCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC85B1EF241EC9BA00593772 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC85B1F1241ECA6400593772 /* GalleryItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC85B1F0241EC9C000593772 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC2CCB5C241ECE7300A1BDBE /* GalleryService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DC8664EA241ECB7A00FB5D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5975B79983FC0DABC96C408D /* Pods_Imgur_CollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC85B1E7241EC6F100593772 /* Build configuration list for PBXNativeTarget "Imgur CollectionView" */;
 			buildPhases = (
+				E67902BA536F868694557DD9 /* [CP] Check Pods Manifest.lock */,
 				DC85B1CF241EC6EF00593772 /* Sources */,
 				DC85B1D0241EC6EF00593772 /* Frameworks */,
 				DC85B1D1241EC6EF00593772 /* Resources */,
+				DC8664F6241ECBF000FB5D06 /* Embed Frameworks */,
+				5441C58819438C6EE40F3686 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC85B1E3241EC6F100593772 /* LaunchScreen.storyboard in Resources */,
+				DC85B1EE241EC7C000593772 /* GalleryCollectionViewCell.xib in Resources */,
 				DC85B1E0241EC6F100593772 /* Assets.xcassets in Resources */,
 				DC85B1DE241EC6EF00593772 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +210,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5441C58819438C6EE40F3686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Imgur CollectionView/Pods-Imgur CollectionView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Imgur CollectionView/Pods-Imgur CollectionView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Imgur CollectionView/Pods-Imgur CollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67902BA536F868694557DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Imgur CollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC85B1CF241EC6EF00593772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC85B1F2241ECA6400593772 /* GalleryItem.swift in Sources */,
 				DC85B1DB241EC6EF00593772 /* ViewController.swift in Sources */,
+				DC85B1ED241EC7C000593772 /* GalleryCollectionViewCell.swift in Sources */,
 				DC85B1D7241EC6EF00593772 /* AppDelegate.swift in Sources */,
+				DC2CCB5D241ECE7300A1BDBE /* GalleryService.swift in Sources */,
 				DC85B1D9241EC6EF00593772 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,10 +404,15 @@
 		};
 		DC85B1E8241EC6F100593772 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A42C3955A5A413366B7E65B /* Pods-Imgur CollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT4W7MMEML;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Imgur CollectionView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,16 +421,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.willianpinho.Imgur-CollectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC85B1E9241EC6F100593772 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215E63E50B6EFF5F987A475A /* Pods-Imgur CollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UT4W7MMEML;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Imgur CollectionView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.willianpinho.Imgur-CollectionView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
